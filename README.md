@@ -1,5 +1,12 @@
 # gpu-kernel-profiling
 
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Nsight](https://img.shields.io/badge/Nsight-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![NVTX](https://img.shields.io/badge/NVTX-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SLURM](https://img.shields.io/badge/SLURM-46a2f1?style=flat-square&logoColor=white)
+
 Reading Nsight Systems traces to find out why a CUDA kernel is slow — and turning the answer into a
 code change. Three kernels that move identical amounts of memory, profiled on an A100 at two block
 sizes, plus a tool that extracts the numbers from the trace databases instead of clicking through the
