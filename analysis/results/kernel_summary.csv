@@ -1,0 +1,9 @@
+trace,kernel,grid,block,time_us,achieved_gbs
+mat_transpose_report_16,copyMatrix2D,63x63,16x16,7.62,1050.4
+mat_transpose_report_16,copyMatrix2D,63x63,16x16,6.78,1179.2
+mat_transpose_report_16,transposeMatrix2D,63x63,16x16,12.22,654.5
+mat_transpose_report_16,transposeMatrixShared2D,63x63,16x16,6.98,1146.6
+mat_transpose_report_32,copyMatrix2D,32x32,32x32,7.39,1082.3
+mat_transpose_report_32,copyMatrix2D,32x32,32x32,6.56,1219.5
+mat_transpose_report_32,transposeMatrix2D,32x32,32x32,34.50,231.9
+mat_transpose_report_32,transposeMatrixShared2D,32x32,32x32,12.93,618.8
